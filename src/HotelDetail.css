@@ -1,0 +1,91 @@
+/* Estilos para el encabezado de la página de detalles del hotel */
+.header-details {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h4.details {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  /* Estilos para la lista de hoteles en HotelDetails */
+  .Main-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .Card-details {
+    width: 400px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.3s;
+    margin-bottom: 20px;
+  }
+  
+  .Card-details:hover {
+    transform: translateY(-5px);
+  }
+  
+  .CardMedia-details {
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .CardContent-details {
+    padding: 16px;
+  }
+  
+  .Button-details {
+    background-color: #3498db;
+    color: #fff;
+    transition: background-color 0.3s;
+  }
+  
+  .Button-details:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Estilos para la descripción y el formulario de reserva en HotelDetails */
+  .Description-details {
+    text-align: left;
+  }
+  
+  .BookingForm-details {
+    width: 100%;
+    max-width: 400px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .BookingForm-details label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .BookingForm-details input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .BookingForm-details .Button-details {
+    background-color: #3498db;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .BookingForm-details .Button-details:hover {
+    background-color: #2980b9;
+  }
+  

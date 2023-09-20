@@ -1,0 +1,34 @@
+{
+    "hotels": [
+        {
+            "id": 1,
+            "name": "Hotel Ritz",
+            "description": "El Hotel Ritz es un lujoso establecimiento frente al mar que combina la elegancia y el confort. Disfruta de impresionantes vistas al océano y de un servicio de clase mundial durante tu estancia. Perfecto para aquellos que buscan una experiencia de lujo inolvidable.",
+            "img": "/img/hotel1.jpeg"
+        },
+        {
+            "id": 2,
+            "name": "Hotel Paradise",
+            "description": "El Hotel Paradise es un destino de ensueño frente a la playa, donde la comodidad y la tranquilidad se encuentran. Sumérgete en aguas cristalinas, relájate en la arena dorada y experimenta unas vacaciones inolvidables en este paraíso costero.",
+            "img": "/img/hotel2.jpeg"
+        },
+        {
+            "id": 3,
+            "name": "Hotel Montaña",
+            "description": "El Hotel Montaña te ofrece una experiencia única en medio de la naturaleza. Rodeado de majestuosas montañas, este retiro es perfecto para aquellos que buscan relajación y aventura al aire libre. Descubre la belleza natural en su máxima expresión.",
+            "img": "/img/hotel3.jpeg"
+        },
+        {
+            "id": 4,
+            "name": "Hotel Elegance",
+            "description": "El Hotel Elegance es una fusión perfecta de estilo y confort. Sus habitaciones modernas y elegantes te brindarán una estancia inigualable. Experimenta la sofisticación en cada detalle y relájate con un servicio de primera clase.",
+            "img": "/img/hotel4.jpeg"
+        },
+        {
+            "id": 5,
+            "name": "Hotel Historia",
+            "description": "El Hotel Historia es un encantador establecimiento que te transportará a otra época. Con una rica historia y un ambiente único, este hotel te ofrece una experiencia enriquecedora que combina el encanto del pasado con todas las comodidades modernas.",
+            "img": "/img/hotel5.jpeg"
+        }
+    ]
+}

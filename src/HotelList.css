@@ -1,0 +1,64 @@
+/* Estilos para el encabezado de la página */
+header {
+  background-color: #3498db;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-size: 24px;
+  margin: 0;
+}
+
+/* Estilos para la lista de hoteles */
+.Main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.Card {
+  width: 300px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.Card:hover {
+  transform: translateY(-5px);
+}
+
+.CardMedia {
+  height: 180px;
+  object-fit: cover;
+}
+
+CardContent {
+  padding: 16px;
+}
+
+.Button {
+  background-color: #3498db;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+.Button:hover {
+  background-color: #2980b9;
+}
+
+.Link {
+  text-decoration: none;
+  color: #3498db;
+  transition: color 0.3s;
+}
+
+.Link:hover {
+  color: #2980b9;
+}
