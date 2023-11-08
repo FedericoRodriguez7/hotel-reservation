@@ -10,7 +10,7 @@ function App() {
   return (
     <>
     
-    <Toaster position="top-left" reverseOrder={false}/>
+    <Toaster position="top-mid" reverseOrder={false}/>
     <QueryClientProvider client={client}>
        <Switch>
         <Route path="/" component={HotelList} />
