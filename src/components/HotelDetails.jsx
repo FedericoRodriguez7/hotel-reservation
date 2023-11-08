@@ -41,7 +41,7 @@ function HotelDetails() {
       </header>
       
       <div className="Main-details">
-        <div>
+        <div className="backHotels">
            <Link href="/">Volver a la lista de hoteles</Link> 
         </div>
         
