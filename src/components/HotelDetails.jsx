@@ -34,7 +34,7 @@ function HotelDetails() {
     }
 
     return (
-        <div>
+        <div className="TODO2">
             
       <header className="header-details">
         <h4 className="details">Hotel Details</h4>

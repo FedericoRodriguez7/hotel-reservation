@@ -97,5 +97,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: xx-large
+    font-size: xx-large;
+    border: 1px solid black;
+    margin-bottom: 1cm;
+  }
+
+
+  .TODO2{
+    background-image: url("../public/img/paisaje-natural-portada.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   }

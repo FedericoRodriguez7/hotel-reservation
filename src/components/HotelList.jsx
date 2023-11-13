@@ -1,7 +1,10 @@
 import { Button, Card, CardActions, CardContent, CardMedia, Stack, Typography } from "@mui/material";
 import { useQuery } from "@tanstack/react-query";
+import React from "react";
 import { Link } from "wouter";
 import "../../src/HotelList.css"; 
+import App2 from "./MoveDown";
+
 
 const fetchHotels = async () => {
     const res = await fetch("http://localhost:3001/hotels");
@@ -13,6 +16,12 @@ const fetchHotels = async () => {
 }
 
 function HotelList() {
+
+    const scrollToBottom = () => {
+        scroll.scrollToBottom({ duration: 800, smooth: 'easeInOutQuart' });
+      };
+
+
     const {
         data: hotels,
         isLoading,
@@ -27,12 +36,19 @@ function HotelList() {
         return <div>Error fetching Hotels {error.message}</div>;
     }
 
+
+    
+
     return (
-        <div>
+        <div className="TODO">
             <header>
                 <h4>Booking App</h4>
             </header>
-            <div className="Main">
+            <div className="Main2">
+                <div>
+                   <App2/>
+                </div>
+                
                 {hotels.map((hotel) => (
                     <Link key={hotel.id} href={`/hotel/${hotel.id}`} className="Link">
                         <Card className="Card">
